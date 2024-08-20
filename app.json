@@ -18,10 +18,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCVNkpiSsTGuEcAd0GFhTdgnBZnJMmP9cU"
+        }
+      },
+      "package": "com.simplec0der.expomap"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "47bf5257-64dc-4856-95be-250358be3263"
+      }
     }
   }
 }
